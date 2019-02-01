@@ -1,5 +1,5 @@
 %\iffalse
-% glossaries-finnish.dtx
+% glossaries-estonian.dtx
 %\fi
 %\iffalse
 %<*package>
@@ -30,13 +30,13 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 
-\title{Glossaries Language Module: glossaries-finnish}
+\title{Glossaries Language Module: glossaries-estonian}
 \author{Tuomas Välimäki\\
   Based on glossaries-\emph{language} by Nicola Talbot}
 \date{version 1.0 (2016-04-01)}
 
 \begin{document}
-\DocInput{glossaries-finnish.dtx}
+\DocInput{glossaries-estonian.dtx}
 \end{document}
 %</driver>
 %\fi
@@ -51,30 +51,30 @@
 %\section{The Code}
 %\iffalse
 %    \begin{macrocode}
-%<*glossaries-finnish-ascii.ldf>
+%<*glossaries-estonian-ascii.ldf>
 %    \end{macrocode}
 %\fi
-%\subsection{glossaries-finnish-ascii.ldf}
+%\subsection{glossaries-estonian-ascii.ldf}
 %    \begin{macrocode}
 \@ifpackageloaded{polyglossia}%
 {%
 %    \end{macrocode}
 % This is unlikely to occur, since if polyglossia has been loaded
-% then the glossaries-finnish-utf8.ldf file should've been loaded instead.
+% then the glossaries-estonian-utf8.ldf file should've been loaded instead.
 %    \begin{macrocode}
-  \newcommand*{\glossariescaptionsfinnish}{%
-    \renewcommand*{\glossaryname}{\textfinnish{Sanasto}}%
-    \renewcommand*{\acronymname}{\textfinnish{Lyhenteet}}%
-    \renewcommand*{\entryname}{\textfinnish{Merkinn\"{a}t}}%
-    \renewcommand*{\descriptionname}{\textfinnish{Kuvaus}}%
-    \renewcommand*{\symbolname}{\textfinnish{Symboli}}%
-    \renewcommand*{\pagelistname}{\textfinnish{Sivut}}%
-    \renewcommand*{\glssymbolsgroupname}{\textfinnish{Symbolit}}%
-    \renewcommand*{\glsnumbersgroupname}{\textfinnish{Numerot}}%
+  \newcommand*{\glossariescaptionsestonian}{%
+    \renewcommand*{\glossaryname}{\textestonian{Sanasto}}%
+    \renewcommand*{\acronymname}{\textestonian{Lyhenteet}}%
+    \renewcommand*{\entryname}{\textestonian{Merkinn\"{a}t}}%
+    \renewcommand*{\descriptionname}{\textestonian{Kuvaus}}%
+    \renewcommand*{\symbolname}{\textestonian{Symboli}}%
+    \renewcommand*{\pagelistname}{\textestonian{Sivut}}%
+    \renewcommand*{\glssymbolsgroupname}{\textestonian{Symbolit}}%
+    \renewcommand*{\glsnumbersgroupname}{\textestonian{Numerot}}%
   }%
 }
 {%
-  \newcommand*{\glossariescaptionsfinnish}{%
+  \newcommand*{\glossariescaptionsestonian}{%
     \renewcommand*{\glossaryname}{Sanasto}%
     \renewcommand*{\acronymname}{Lyhenteet}%
     \renewcommand*{\entryname}{Merkinn\"{a}t}%
@@ -88,31 +88,31 @@
 %    \end{macrocode}
 %\iffalse
 %    \begin{macrocode}
-%</glossaries-finnish-ascii.ldf>
+%</glossaries-estonian-ascii.ldf>
 %    \end{macrocode}
 %\fi
 %\iffalse
 %    \begin{macrocode}
-%<*glossaries-finnish-utf8.ldf>
+%<*glossaries-estonian-utf8.ldf>
 %    \end{macrocode}
 %\fi
-%\subsection{glossaries-finnish-utf8.ldf}
+%\subsection{glossaries-estonian-utf8.ldf}
 %    \begin{macrocode}
 \@ifpackageloaded{polyglossia}%
 {%
-  \newcommand*{\glossariescaptionsfinnish}{%
-    \renewcommand*{\glossaryname}{\textfinnish{Sanasto}}%
-    \renewcommand*{\acronymname}{\textfinnish{Lyhenteet}}%
-    \renewcommand*{\entryname}{\textfinnish{Merkinnät}}%
-    \renewcommand*{\descriptionname}{\textfinnish{Kuvaus}}%
-    \renewcommand*{\symbolname}{\textfinnish{Symboli}}%
-    \renewcommand*{\pagelistname}{\textfinnish{Sivut}}%
-    \renewcommand*{\glssymbolsgroupname}{\textfinnish{Symbolit}}%
-    \renewcommand*{\glsnumbersgroupname}{\textfinnish{Numerot}}%
+  \newcommand*{\glossariescaptionsestonian}{%
+    \renewcommand*{\glossaryname}{\textestonian{Sanasto}}%
+    \renewcommand*{\acronymname}{\textestonian{Lyhenteet}}%
+    \renewcommand*{\entryname}{\textestonian{Merkinnät}}%
+    \renewcommand*{\descriptionname}{\textestonian{Kuvaus}}%
+    \renewcommand*{\symbolname}{\textestonian{Symboli}}%
+    \renewcommand*{\pagelistname}{\textestonian{Sivut}}%
+    \renewcommand*{\glssymbolsgroupname}{\textestonian{Symbolit}}%
+    \renewcommand*{\glsnumbersgroupname}{\textestonian{Numerot}}%
   }%
 }
 {%
-  \newcommand*{\glossariescaptionsfinnish}{%
+  \newcommand*{\glossariescaptionsestonian}{%
     \renewcommand*{\glossaryname}{Sanasto}%
     \renewcommand*{\acronymname}{Lyhenteet}%
     \renewcommand*{\entryname}{Merkinnät}%
@@ -126,36 +126,36 @@
 %    \end{macrocode}
 %\iffalse
 %    \begin{macrocode}
-%</glossaries-finnish-utf8.ldf>
+%</glossaries-estonian-utf8.ldf>
 %    \end{macrocode}
 %\fi
 %\iffalse
 %    \begin{macrocode}
-%<*glossaries-finnish.ldf>
+%<*glossaries-estonian.ldf>
 %    \end{macrocode}
 %\fi
-%\subsection{glossaries-finnish.ldf}
+%\subsection{glossaries-estonian.ldf}
 %    \begin{macrocode}
-\ProvidesGlossariesLang{finnish}[2016/04/01 v1.0]
+\ProvidesGlossariesLang{estonian}[2016/04/01 v1.0]
 
-\glsifusedtranslatordict{Finnish}
+\glsifusedtranslatordict{Estonian}
 {%
   \addglossarytocaptions{\CurrentTrackedLanguage}%
   \addglossarytocaptions{\CurrentTrackedDialect}%
 }
 {%
   \ifdefstring{\inputencodingname}{utf8}
-  {\input{glossaries-finnish-utf8.ldf}}%
+  {\input{glossaries-estonian-utf8.ldf}}%
   {%
     \ifdef{\XeTeXinputencoding}% XeTeX defaults to UTF-8
-    {\input{glossaries-finnish-utf8.ldf}}%
-    {\input{glossaries-finnish-ascii.ldf}}
+    {\input{glossaries-estonian-utf8.ldf}}%
+    {\input{glossaries-estonian-ascii.ldf}}
   }
   \ifcsdef{captions\CurrentTrackedDialect}
   {%
     \csappto{captions\CurrentTrackedDialect}%
     {%
-      \glossariescaptionsfinnish
+      \glossariescaptionsestonian
     }%
   }%
   {%
@@ -163,13 +163,13 @@
     {
       \csappto{captions\CurrentTrackedLanguage}%
       {%
-        \glossariescaptionsfinnish
+        \glossariescaptionsestonian
       }%
     }%
     {%
     }%
   }%
-  \glossariescaptionsfinnish
+  \glossariescaptionsestonian
 }
 %    \end{macrocode}
 % General default plural suffix:
@@ -187,17 +187,17 @@
 %    \end{macrocode}
 %\iffalse
 %    \begin{macrocode}
-%</glossaries-finnish.ldf>
+%</glossaries-estonian.ldf>
 %    \end{macrocode}
 %\fi
 %\iffalse
 %    \begin{macrocode}
-%<*glossaries-dictionary-Finnish.dict>
+%<*glossaries-dictionary-Estonian.dict>
 %    \end{macrocode}
 %\fi
-%\subsection{glossaries-dictionary-Finnish.dict}
+%\subsection{glossaries-dictionary-Estonian.dict}
 %    \begin{macrocode}
-\ProvidesDictionary{glossaries-dictionary}{Finnish}
+\ProvidesDictionary{glossaries-dictionary}{Estonian}
 
 \providetranslation{Glossary}{Sanasto}
 \providetranslation{Acronyms}{Lyhenteet}
@@ -210,7 +210,7 @@
 %    \end{macrocode}
 %\iffalse
 %    \begin{macrocode}
-%</glossaries-dictionary-Finnish.dict>
+%</glossaries-dictionary-Estonian.dict>
 %    \end{macrocode}
 %\fi
 %\Finale
