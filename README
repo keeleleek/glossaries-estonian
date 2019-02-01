@@ -1,14 +1,14 @@
-Finnish Language Module for glossaries Package
+Estonian Language Module for glossaries Package
 version 1.0 2016-04-01
 
 Licence: LPPL
 
-This module is maintained by Tuomas Välimäki.
-Contact: tuomas.s.valimaki+glossaries-finnish@gmail.com
+This module is maintained by Kristian Kankainen.
+Contact: glossaries-estonian@keeleleek.ee
 
 To install: copy *.ldf and *.dict to
 
-TEXMF/tex/latex/glossaries-finnish/
+TEXMF/tex/latex/glossaries-estonian/
 
 where TEXMF is the texmf root directory.
 
